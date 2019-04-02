@@ -1,11 +1,17 @@
 #!/usr/bin/env node
 
-const program = require('commander');
-const classifier = require('./classifier');
+const program = require("commander");
+const {
+  predict
+} = require("./classifier");
+
+program.version("1.0.0").description("ESLint Rules Generator");
 
 program
-    .command('eslint-generate')
-    .description('Generate ESLint Rules')
-    .action(() => {
-        classifier.predict();
-    })
+  .command("generate")
+  .description("Generate ESLint Rules")
+  .action(() => {
+    predict();
+  });
+
+program.parse(process.argv);
