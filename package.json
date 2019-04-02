@@ -1,0 +1,41 @@
+{
+  "name": "eslint-generator",
+  "version": "1.0.0",
+  "description": "Neural Network Classifier made with TensorFlow.js for classifying EsLint rules usage",
+  "main": "model.js",
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.15.3",
+    "@tensorflow/tfjs-node": "^0.3.1",
+    "commander": "^2.19.0",
+    "d3": "^5.9.1",
+    "js-yaml": "^3.12.2",
+    "lodash": "^4.17.11",
+    "strip-json-comments": "^2.0.1",
+    "windows-build-tools": "^5.1.0"
+  },
+  "devDependencies": {},
+  "preferGlobal": true,
+  "bin": {
+    "eslint-generator": "./command.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Panagiotis Sakkis",
+  "license": "MIT",
+  "keywords": [
+    "Neural",
+    "Network",
+    "EsLint",
+    "TensorFLow.js",
+    "Classifier"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pansakk/eslint-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pansakk/eslint-generator/issues"
+  },
+  "homepage": "https://github.com/pansakk/eslint-generator#readme"
+}
