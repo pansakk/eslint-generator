@@ -1,4 +1,4 @@
-const tf = require("@tensorflow/tfjs-node");
+const tf = require("@tensorflow/tfjs");
 const fs = require("fs");
 const d3 = require("d3");
 const cf = require("./configuration.js");
