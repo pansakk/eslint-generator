@@ -14,9 +14,7 @@
   },
   "devDependencies": {},
   "preferGlobal": true,
-  "bin": {
-    "eslint-generator": "./command.js"
-  },
+  "bin": "./command.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
