@@ -28,3 +28,8 @@ It will automatically complete your eslintrc file rules field.
 If you don't have already a file it will produce one with the default field values.
 
 ## Example
+![](https://github.com/pansakk/eslint-generator/blob/master/img/Screenshot_1.png)
+
+![](https://github.com/pansakk/eslint-generator/blob/master/img/Screenshot_2.png)
+
+![](https://github.com/pansakk/eslint-generator/blob/master/img/Screenshot_3.png)
