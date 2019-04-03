@@ -93,7 +93,7 @@ module.exports = {
                 }
             }
         } catch (err) {
-            console.log("Found no eslintrc file");
+            // console.log("Found no eslintrc file");
         }
 
 

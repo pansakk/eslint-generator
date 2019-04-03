@@ -14,13 +14,11 @@ module.exports = {
         objFile = yaml.safeLoad(data);
         y = true;
       } catch (error) {
-        console.log(error);
         let str = strip(data);
         try {
           objFile = JSON.parse(str);
           j = true;
         } catch (err) {
-          console.log(err)
           objFile = require(file);
           j = true;
         }
